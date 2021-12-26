@@ -8,14 +8,14 @@
         <div class="page-sidebar-menu">
             <ul class="accordion-menu">
                 <li class="active-page">
-                    <a href="index.html">
+                    <router-link to="/admin/dashboard">
                         <i class="menu-icon icon-home4"></i><span>Dashboard</span>
-                    </a>
+                    </router-link>
                 </li>
                 <li>
-                    <a href="@route('admin.category.index')">
+                    <router-link to="/admin/categories">
                         <i class="menu-icon icon-inbox"></i><span>Categories</span>
-                    </a>
+                    </router-link>
                 </li>
                 <li>
                     <a href="javascript:void(0)">

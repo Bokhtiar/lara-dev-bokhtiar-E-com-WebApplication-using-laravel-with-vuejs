@@ -38,7 +38,7 @@
     <body>
 
         <!-- Page Container -->
-        <div class="page-container">
+        <div class="page-container" id="app">
             <!-- Page Sidebar -->
             @include('layouts.admin.partial.sidebar')
             <!-- /Page Sidebar -->
@@ -53,7 +53,8 @@
             </div><!-- /Page Content -->
         </div><!-- /Page Container -->
 
-
+        <!--vuejs Scripts-->
+        <script src="{{ asset('js/app.js') }}" defer></script>
         <!-- Javascripts -->
         <script src="{{ asset('admin') }}/assets/plugins/jquery/jquery-3.1.0.min.js"></script>
         <script src="{{ asset('admin') }}/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
